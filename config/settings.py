@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "users",
     "materials",
+    'django_filters',
 ]
 
 MIDDLEWARE = [
@@ -138,5 +139,5 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 AUTH_USER_MODEL = 'users.User'
 
-ROOT_EMAIL = os.getenv('ROOT_EMAIL')
-ROOT_PASSWORD = os.getenv('ROOT_PASSWORD')
+ROOT_EMAIL = 'admin@admin.admin'
+ROOT_PASSWORD = '8915Daniq'
